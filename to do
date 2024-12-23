@@ -19,11 +19,11 @@
         }
 
         .task label {
-            margin-left: 10px; /* Tik kutusu ve görev adı arasına boşluk ekler */
+            margin-left: 10px; 
         }
         
         .form-check-input {
-            margin-right: 10px; /* Tik kutusunun sağ tarafına boşluk ekler */
+            margin-right: 10px; 
         }
     </style>
 </head>
@@ -63,10 +63,10 @@
         "use strict";
 
         let gorevListesi = [
-            {"id":1,"gorevAdi":"Görev 1"},
-            {"id":2,"gorevAdi":"Görev 2"},
-            {"id":3,"gorevAdi":"Görev 3"},
-            {"id":4,"gorevAdi":"Görev 4"},
+            {"id":1,"gorevAdi":"Yapılacaklar"},
+            {"id":2,"gorevAdi":"Yapılacaklar"},
+            {"id":3,"gorevAdi":"Yapılacaklar"},
+            {"id":4,"gorevAdi":"Yapılacaklar"},
         ];
         displayTask();
 
